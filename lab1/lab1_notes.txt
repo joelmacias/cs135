@@ -1,0 +1,27 @@
+Today's Topics
+	* Intro to Linux commands 
+	* Pulling lab notes from Github 
+	* Changing CS password
+	* Logging into Bobby 
+
+
+Intro to Linux commands, these commands are typed into the terminal:
+	ls - will list contents of current directory 
+	cp sourceFile destinationFile - copy contents of sourceFile to destinationFile
+	mv oldFile newFile - name of oldFile is changed to newFile
+	mv file newDirectory/ - moves file to newDirectory/
+	rm fileName - will delete the file fileName
+	lpr fileName - prints fileName from panderosa
+
+
+Pulling lab notes from Github:
+	1. Open web browser and go to: github.com/joelmacias
+	2. Click 'Repositories' tab
+	3. Click 'cs135' repository
+	4. Click 'clone or download' Copy the link
+	5. Open the terminal, type 'git clone ' paste the link, and press enter  
+	6. A new folder named 'cs135' will be copied into your current directory 
+	
+	Steps 1 through 6 only need to be done once. After this lab to pull the new notes 
+	navigate to the folder 'cs135' in the terminal and type:
+		git pull
