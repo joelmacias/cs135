@@ -12,6 +12,9 @@ Intro to Linux commands, these commands are typed into the terminal:
 	mv file newDirectory/ - moves file to newDirectory/
 	rm fileName - will delete the file fileName
 	lpr fileName - prints fileName from panderosa
+	mkdir folderName - creates a folder
+	cd - takes you to your home directory
+	cd directoryPath - takes you to the directory pointed to by directoryPath
 
 
 Pulling lab notes from Github:
@@ -25,3 +28,14 @@ Pulling lab notes from Github:
 	Steps 1 through 6 only need to be done once. After this lab to pull the new notes 
 	navigate to the folder 'cs135' in the terminal and type:
 		git pull
+
+Changing CS Password: 
+	View 'CS135_Exercise1.pdf' located in the folder cs135 
+
+
+Logging into Bobby:
+	Open the terminal, and enter the following:
+		ssh csLoginName@bobby.cs.unlv.edu
+
+	replace csLoginName with your...cs login name, then type and enter your password. Your 
+	password will not be displayed 
