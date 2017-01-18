@@ -15,7 +15,7 @@ Intro to Linux commands, these commands are typed into the terminal:
 	mkdir folderName - creates a folder
 	cd - takes you to your home directory
 	cd directoryPath - takes you to the directory pointed to by directoryPath
-
+	cat fileName - displays contents of fileName to screen
 
 Pulling lab notes from Github:
 	1. Open web browser and go to: github.com/joelmacias
