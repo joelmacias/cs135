@@ -1,7 +1,0 @@
-Welcome to CS135Lab! 
-
-Lab info:
-	My Name: Joel Macias
-	My Email: macias22@unlv.nevada.edu
-	My Github: github.com/joelmacias
-	Office Hours: TBA
