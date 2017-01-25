@@ -10,6 +10,7 @@ Emacs Commands
 	move cursor to beginning of line: C-a
 	move cursor to end of line: C-e
 	kill-line: C-k
+	Undo:	   C-x u
 	mark text: C-SPC
 	copy marked text: M-w
 	paste copied text: C-y 
