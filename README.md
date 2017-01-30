@@ -5,7 +5,7 @@ This Github repo is where I will post the lab material.
 
 There may be some material I go over in lab that I don't post on here. 
 
-#Basic lab info 
+##Basic lab info 
  * Email: joel.macias-venegas@unlv.edu
  * Office hours in TBE B361: 
 	
@@ -18,7 +18,7 @@ There may be some material I go over in lab that I don't post on here.
 
 	1009, Thursday 5:30-6:20pm
 
-#How to get the latest lab material
+##How to get the latest lab material
  * Navigate to the cs135 folder in your home directory, and enter the following command:
 
 		git pull
