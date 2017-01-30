@@ -21,4 +21,4 @@ There may be some material I go over in lab that I don't post on here.
 #How to get the latest lab material
  * Navigate to the cs135 folder in your home directory, and enter the following command:
 
-	git pull
+		git pull
