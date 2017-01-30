@@ -1,6 +1,8 @@
 #UNLV CS135L Spring 2017
 Welcome to CS135 Lab! 
+
 This Github repo is where I will post the lab material.
+
 There may be some material I go over in lab that I don't post on here. 
 
 #Basic lab info 
@@ -11,6 +13,7 @@ There may be some material I go over in lab that I don't post on here.
  * Sections: 
 	1008, Tuesday  5:30-6:20pm
 	1009, Thursday 5:30-6:20pm
+
 #How to get the latest lab material
  * Navigate to the cs135 folder in your home directory, and enter the following command:
 	git pull
