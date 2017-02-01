@@ -28,11 +28,16 @@ int main(){
 
 	cout << "a = 5"<<endl;
 	cout << "b = 2"<<endl; 
-	/** Explicit type casting **/
 
-	cout<<"Explicit type casting"<<endl; 
+
+
 	answer = a/b; // no casting
+
+
 	cout<<"a/b: "<<answer<<endl;
+
+	/** Explicit type casting **/
+	cout<<"Explicit type casting"<<endl; 
 
 	answer = static_cast<double>(a/b); 		// C++ style casting
 	cout<<"static_cast<double>(a/b) => "<<answer<<endl;
