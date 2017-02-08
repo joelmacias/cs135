@@ -1,0 +1,76 @@
+CS 135
+Spring 2017
+Exercise #5
+Point value: 20
+Date due: email to your lab instructor by 11:59pm Tues, Feb 7
+C++ Arithmetic, Library Functions, and Assignment
+
+For each of the following questions, replace the ________ with
+your response.
+
+Evaluate each of the following expressions. If the final result is
+floating-point, include a decimal. Assume cmath has been included.
+
+1. 25 % 8 - 9 / 2 => ________
+
+
+2. 7 + 21 % 15 - pow(2,3) => _______
+
+
+3. 9 / 4 * 6 + int(4.7) => ______
+
+
+4. 4 * (2.0 / 5) - 2 => ______
+
+
+5. 101 / (5 % 7) - 3 * 2.0 => _______
+
+
+
+Suppose a program contains the following declarations and assignment
+statements. Assume cmath has been included in the program.
+
+int x, y, z;
+double a, b;
+x = 19;
+y = 3;
+a = 8.4;
+
+Answer each of the following questions. Include a decimal if the value
+stored is floating-point.
+
+6. What is stored in z after the statement is executed?
+
+   z = 3 + x % 6;    z is ______
+
+
+7. What is stored in b after the statement is executed?
+
+   b = int(sqrt(x+9)) + y * 2;   b is ______
+
+
+8. What is stored in b after the statement is executed?
+
+   b = y / 2 + 9.1;    b is ______
+
+
+
+9. What is stored in z after the statement is executed?
+
+   z = a - x % y + (x - 10) * 0.5;
+
+   z is ______
+
+
+10. What is stored in z after the statment is executed?
+
+    z = double (y / x + 1) - a;
+
+    z is ______
+    
+
+After typing in your responses to each of the questions, use the
+mail utility to email this file to your lab instructor.
+
+Make sure your name, lecture and lab section #s, and exercise # are
+in the subject line of the message.
