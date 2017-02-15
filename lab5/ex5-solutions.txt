@@ -1,0 +1,78 @@
+1. 25 % 8 - 9 /2 => -3 
+	25 % 8 = 1
+	9 / 2 = 4
+	1 - 4 = -3
+
+2. 7 + 21 % 15 - pow(2,3) => 5.0
+   pow(2,3) = 8.0
+   21 % 15 = 6
+   7 + 6 = 13
+   13 - 8.0 = 5.0
+
+3. 9 / 4 * 6 + int(4.7) => 16
+	9/4 = 2
+    2 * 6 = 12 
+    12 + 4 = 16
+
+4. 4 * (2.0 / 5) - 2 => -0.4
+   2.0 / 5 = 0.4
+   4 * 0.4 = 1.6
+	1.6 - 2 = -0.4
+
+5. 101 / (5 % 7) - 3 * 2.0 => 14.0
+   5 % 7 = 5
+   101 / 5 = 20
+   3 * 2.0 = 6.0
+   20 - 6.0 = 14.0
+
+int x, y, z;
+double a, b;
+x = 19;
+y = 3;
+a = 8.4;
+
+6. What is stored in z after the statement is executed?
+
+   z = 3 + x % 6;
+   z = 3 + 19 % 6
+   z = 3 + 1 
+   z = 4
+
+
+7. What is stored in b after the statement is executed?
+
+   b = int(sqrt(x+9)) + y * 2; 
+   b = int(sqrt(19+9)) + 3 * 2
+   b = int(5.29) + 3 * 2
+   b = 5 + 6
+   b = 11.0
+
+
+8. What is stored in b after the statement is executed?
+
+   b = y / 2 + 9.1;  
+   b = 3 / 2 + 9.1
+   b = 1 + 9.1 = 10.1
+
+
+9. What is stored in z after the statement is executed?
+
+   z = a - x % y + (x - 10) * 0.5;
+   z = 8.4 - 19 % 3 + (19-10) * 0.5
+   z =  8.4 - 1 + 9 * 0.5
+   z =  7.4 + 4.5
+   z = 11
+
+
+10. What is stored in z after the statment is executed?
+
+    z = double (y / x + 1) - a;
+	z = double (3 / 19 + 1) -8.4
+    z = double ( 0 + 1) -8.4
+    z = 1.0 - 8.4
+    z = -7
+
+
+
+
+ 
