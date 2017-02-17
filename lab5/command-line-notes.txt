@@ -1,0 +1,39 @@
+1. Writing to a file 
+	Example 1:
+		printf "1\n2\n 3\n" > data-file.txt
+	1.1 In example 1 the '>' command will write the input '1\n2\n 3" to the file 'data-file.txt'. 
+		1.1.1 Recall: \n is the newline character sequence 
+	1.2 In example 1 if the file to be written to doesn't exist it will be created. If the file does exist
+		it will be overwritten. 
+
+2. Writing to a file without overwritting file 
+	Example 2:
+		printf "Hello,\nWorld\n" >> data-file.txt
+	2.1 In example 2 the '>>' command will append the input 'Hello\nWorld\n' to the file 'data-file.txt'
+	2.2 If the file doesn't exist then it will be created. If the file does exist, and it contains data, then
+		the input will be appended to the existing data. 
+
+3. Searching files for strings 
+	Example 3:
+		grep -n "string_literal" filename.txt
+	3.1 In example 3 the grep command searches the 'filename.txt' for 'string_literal'. The 
+		3.1.1 -n option will print out the line number the 'string_literal' is on
+		3.1.2 -i option use will ignore case
+	Example 3.2:
+		grep -rl "string_literal" * 
+		3.2.1 -r option indicates to recursivley search for "string_literal"
+		3.3.2 -l option will only print the files in which the "string_literal" is in
+		3.2.3 * indicates to search the current directory. 
+
+4. Modify input 
+	Example 4:
+		sed ’s/texttofind/replacement’ file.txt
+		4.1.1 'sed' stands for stream editor. 's' stands for substitution
+
+
+
+Sources/more info: 
+http://www.grymoire.com/Unix/Sed.html
+http://www.linfo.org/grep.html
+http://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/
+http://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/
