@@ -1,0 +1,21 @@
+
+first char: a
+int value read into int var: 1
+
+second char: b
+double value read into double var: 2.0
+
+third char: c
+int value read into double var: 3.0
+
+fourth char, whitespace char, fifth char: 9 c
+
+fifth char: d
+double value read into int var: 4
+
+sixth char: .
+int value read into int var: 0
+
+This statment will print 5 times
+This statment will print 5 times
+This statment will print 5 times
