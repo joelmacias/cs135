@@ -92,11 +92,11 @@ int main(){
         cout <<"    ";
         // prints top row of multiplication table
         for (c = 1; c <= userInput; c++){
-            if (c == 10){
+            if (c == 10){ // keeps 10 alligned
                 cout<<c<<endl;
             }
-            else{
-                cout << " " << c << " ";
+            else {
+                cout << " " << c << " "; // prints spaces between numbers in table
             }
         }
         cout << endl;
@@ -114,8 +114,9 @@ int main(){
             cout << r << "*  ";
             // inner for loop will cycle through numbers to be multiplied
             for (c = 1; c <= userInput; c++){
-                if (r * c < 10) 
-				cout << " ";
+                if (r * c < 10){ // keeps number greater than 10 alligned
+				  cout << " ";
+                }
                 cout << r * c << " ";
             }
             cout << endl;
