@@ -1,5 +1,5 @@
 #include<iostream>
-#include"lab9notes.h"
+#include"Functions.h"
 
 using namespace std; 
 

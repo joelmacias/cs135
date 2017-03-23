@@ -25,7 +25,7 @@ int main(){
         cout << " 'count' inside of first for loop: " << count << endl;
     }
     
-  //  cout << count << endl; // This will cause a compile error. The scope of 'count' is only in the for loop
+    cout << count << endl; // This will cause a compile error. The scope of 'count' is only in the for loop
     
     // The error above could be fixed as follows:
     
@@ -47,10 +47,10 @@ int main(){
             int x = 37;
         }
         
-        //cout << "x: " << x << endl; // This will cause an error because the scope of x only exists inside of the if statement
+        cout << "x: " << x << endl; // This will cause an error because the scope of x only exists inside of the if statement
     }
     
-    //cout << x << endl; // This will cause an error because the scope of x only exists inside of the if statement
+    cout << x << endl; // This will cause an error because the scope of x only exists inside of the if statement
     
     
     /* All the variables above are examples of automatic variables. Automatic variables are those in which the 
