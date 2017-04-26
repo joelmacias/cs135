@@ -1,5 +1,5 @@
 /*
-Lab 13 - structs 
+Lab 14 - structs 
 
 	- Group of elements grouped together under one name 
 	- These data elements are known as members 
@@ -49,7 +49,7 @@ int main(){
 
 	//initialize array of structs
 	for(int i = 0; i < 10; i++){
-		movieArray[i] = Init_Movie(); 	
+		movieArray[i] = Init_Movie();
 	}
 
 	Read_Data(movieArray, movieCount); 
